@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 7cc5368a845acc600d23151555c9454627b75f43 CMS Maju <lenov@Lenovo.(none)> 1781419968 +0700	clone: from https://github.com/satria-it/websitegibrig.git
+7cc5368a845acc600d23151555c9454627b75f43 0c3c73653b22346a067b2cad697c8038428226e4 BlackboxAI <blackboxai@example.com> 1781422725 +0700	commit: docs: add Node/yarn install prerequisites
+0c3c73653b22346a067b2cad697c8038428226e4 373c648e13ab5b0a846def306aff87404c828808 BlackboxAI <blackboxai@example.com> 1781428796 +0700	commit: feat(admin): edit header/footer config
+373c648e13ab5b0a846def306aff87404c828808 373c648e13ab5b0a846def306aff87404c828808 BlackboxAI <blackboxai@example.com> 1781428802 +0700	checkout: moving from main to blackboxai/admin-header-footer
+373c648e13ab5b0a846def306aff87404c828808 c0f2b2076af7d84183fc79343269775f25c5ea90 BlackboxAI <blackboxai@example.com> 1781430280 +0700	commit: feat(admin): edit konten packages gallery testimonials
+c0f2b2076af7d84183fc79343269775f25c5ea90 d8d807680361b7a3ab5ec018b14a6e8412e6f816 BlackboxAI <blackboxai@example.com> 1781431867 +0700	commit: admin: manage packages, gallery, and main artist
+d8d807680361b7a3ab5ec018b14a6e8412e6f816 170f788a4fbbd12f23e153a2c5df23ef0e083e17 BlackboxAI <blackboxai@example.com> 1781432334 +0700	commit: admin: add direct image upload (data URL)
+170f788a4fbbd12f23e153a2c5df23ef0e083e17 48687c05b829943f0d2c9bd217488d9cb694f2e5 BlackboxAI <blackboxai@example.com> 1781432980 +0700	commit: admin: adjust theme menu and remove password change control
+48687c05b829943f0d2c9bd217488d9cb694f2e5 cebf96e3fb6f6c33e7f606e836aa3417f8ea7309 BlackboxAI <blackboxai@example.com> 1781433181 +0700	commit: admin: redirect to home after save and add kembali button
+cebf96e3fb6f6c33e7f606e836aa3417f8ea7309 cdec5102bfcfd0d825609a7fdaf014c0391c5a92 BlackboxAI <blackboxai@example.com> 1781433617 +0700	commit: docs: track admin panel text color change
+cdec5102bfcfd0d825609a7fdaf014c0391c5a92 37966aa023d2361627688a07b1e96036061818aa BlackboxAI <blackboxai@example.com> 1781433667 +0700	commit: style: make admin panel text black
+37966aa023d2361627688a07b1e96036061818aa e765fbf62978bf1312d275c2ad6c517a2dc56cef BlackboxAI <blackboxai@example.com> 1781434976 +0700	commit: fix: make social label wrap and stay inside TikTok box
