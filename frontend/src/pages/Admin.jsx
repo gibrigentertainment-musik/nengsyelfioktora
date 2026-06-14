@@ -475,6 +475,10 @@ const Admin = () => {
 
   const navigate = useNavigate();
 
+  // NOTE: Admin panel di episode ini hanya untuk edit konten.
+  // Tidak menampilkan tombol ganti password.
+
+
   const {
     config,
     updateBrand,
