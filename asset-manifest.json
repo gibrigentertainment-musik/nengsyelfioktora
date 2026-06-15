@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.e686adb9.js",
-    "index.html": "/index.html",
-    "main.e686adb9.js.map": "/static/js/main.e686adb9.js.map"
+    "main.js": "/nengsyelfioktora/static/js/main.e686adb9.js",
+    "index.html": "/nengsyelfioktora/index.html",
+    "main.e686adb9.js.map": "/nengsyelfioktora/static/js/main.e686adb9.js.map"
   },
   "entrypoints": [
     "static/js/main.e686adb9.js"
