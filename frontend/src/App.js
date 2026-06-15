@@ -1,20 +1,34 @@
-import React from "react";
+name: Deploy static content to Pages
 
-export default function App() {
-  return (
-    <div
-      style={{
-        minHeight: "100vh",
-        background: "#111827",
-        color: "white",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        flexDirection: "column"
-      }}
-    >
-      <h1>DEPLOY BERHASIL 🚀</h1>
-      <p>Kalau halaman berubah menjadi hitam berarti deploy bekerja.</p>
-    </div>
-  );
-}
+on:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./
+
+      - id: deployment
+        uses: actions/deploy-pages@v5
